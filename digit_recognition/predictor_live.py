@@ -1,4 +1,4 @@
-import joblib,cv2
+import joblib, cv2
 import numpy as np
 model = joblib.load("model/svm_6label_rbf")
 
@@ -47,6 +47,6 @@ for i in range (0,100):
     cv2.namedWindow("Result")
     cv2.imshow("Result", im)
     cv2.waitKey(10000)
-    #time.sleep(4)
+    time.sleep(4)
 
 
