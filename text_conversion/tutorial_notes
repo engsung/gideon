@@ -1,0 +1,6 @@
+Types of ML problems
+1. regression problem
+    e.g.  predict the price of a stock next year
+    y = mx + b
+2. classification problem
+    e.g. will a user like or dislike a move=ie?
