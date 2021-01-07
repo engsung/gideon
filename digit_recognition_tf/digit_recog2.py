@@ -31,7 +31,7 @@ model.add(tf.keras.layers.Dense(units=20, activation=tf.nn.softmax))
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=10)  # the model will see the data three times
+model.fit(x_train, y_train, epochs=5)  # the model will see the data three times
 
 loss, accuracy = model.evaluate(x_test, y_test)
 print(accuracy)
